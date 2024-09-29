@@ -1,2 +1,2 @@
-bedfile	plugins/BED2BAM/A.bed
-genome	plugins/BED2BAM/mouse.mm9.genome
+bedfile	plugins/BED2BAM/example/A.bed
+genome	plugins/BED2BAM/example/mouse.mm9.genome
