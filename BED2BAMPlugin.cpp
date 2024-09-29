@@ -16,7 +16,7 @@ void BED2BAMPlugin::output(std::string file) {
 myCommand += "bedToBam -i";
 myCommand += " ";
 addRequiredParameterNoFlag("bedfile");
-addRequiredParameterNoFlag("genome");
+addRequiredParameter("-g", "genome");
 myCommand += " >& "+outputfile + " ";
  system(myCommand.c_str());
 }
