@@ -1,0 +1,2 @@
+Prefix plugins/BED2BAM/example/
+Plugin BED2BAM inputfile parameters.txt outputfile output.bam
